@@ -1,0 +1,57 @@
+Notes from the various docs
+
+[A Gentle Introduction to Bitcoin Core Development](https://bitcointechtalk.com/a-gentle-introduction-to-bitcoin-core-development-fdc95eaee6b8)
+
+Git - If you're testing someone else's code you should know how to add multiple repos to your local dev environment so you can fetch and test the code
+
+Packages - how to [install and remove packages](http://www.control-escape.com/linux/lx-swinstall.html) on your platform
+
+Building from source - git clone, set up your dev environment
+
+Compiling is something you'll need to do frequently
+
+Run all the integration tests, turn on the GUI and ZMQ
+
+Unit tests are compiled with everything else so just run the binary that results
+
+Run the extended integration tests. Pruning test takes a long time so exclude that test
+
+To test you will need to download the code from the pull request, compile again and run the tests
+
+[Contributing to Bitcoin Core](https://bitcointechtalk.com/contributing-to-bitcoin-core-a-personal-account-35f3a594340b)
+
+[PR adding testing for bitcoin-tx utility](https://github.com/bitcoin/bitcoin/pull/8829)
+
+[PR refactoring the functional test framework](https://github.com/bitcoin/bitcoin/pull/10082)
+
+Resources - Pro Git book, Vim bible, tmux primer, Linux overview, Understanding Cryptography, Elliptic curves, automake system
+
+Pro Git and Practical Vim really important
+
+Rebasing PRs - example [here](https://github.com/bitcoin/bitcoin/pull/7729) and [here](https://github.com/bitcoin/bitcoin/pull/10830)
+
+[Sipa's StackExchange](https://bitcoin.stackexchange.com/users/208/pieter-wuille)
+
+[Bitcoin Core meetings](https://bitcoincore.org/en/meetings/)
+
+[Mac OS Build Instructions](https://github.com/bitcoin/bitcoin/blob/master/doc/build-osx.md)
+
+[Unix Build](https://github.com/bitcoin/bitcoin/blob/master/doc/build-unix.md)
+
+[Compiling and running unit tests](https://github.com/bitcoin/bitcoin/blob/master/src/test/README.md)
+
+[Integration tests](https://github.com/bitcoin/bitcoin/tree/master/test)
+
+[README](https://github.com/bitcoin/bitcoin/blob/master/README.md)
+
+[Contribution guidelines](https://github.com/bitcoin/bitcoin/blob/master/CONTRIBUTING.md)
+
+[doc directory](https://github.com/bitcoin/bitcoin/tree/master/doc)
+
+
+
+
+
+
+
+
