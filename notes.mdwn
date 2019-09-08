@@ -48,7 +48,13 @@ Rebasing PRs - example [here](https://github.com/bitcoin/bitcoin/pull/7729) and 
 
 [doc directory](https://github.com/bitcoin/bitcoin/tree/master/doc)
 
+# Advice from Jon
 
+Have bitcoinbuilds.org open as a pinned tab in the browser. Much faster build feedback than Travis
+
+High priority for review: https://github.com/bitcoin/bitcoin/projects/8
+
+Good first issues: https://github.com/bitcoin/bitcoin/contribute
 
 
 
